@@ -1,0 +1,53 @@
+perl-DCOP 
+------------------------------------------- 
+Perl extension to speak to the dcop server via system's DCOP client. 
+
+Runtime requirements:
+  kdelibs-3.4.3-1
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~jcmuller/DCOP/
+
+Canonical download:
+  http://www.cpan.org/authors/id/J/JC/JCMULLER/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-DCOP-0.036-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-DCOP-0.036-X.cygport all
+
+This will create:
+  /usr/src/perl-DCOP-0.036-X-src.tar.bz2
+  /usr/src/perl-DCOP-0.036-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-DCOP.sh
+  /usr/lib/perl5/vendor_perl/5.8/DCOP.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DCOP/.packlist
+  /usr/share/doc/Cygwin/perl-DCOP-0.036.README
+  /usr/share/doc/perl-DCOP-0.036/Changes
+  /usr/share/doc/perl-DCOP-0.036/README
+  /usr/share/man/man3/DCOP.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/DCOP.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.036-1 -----
+Version bump.
+
+----- version 0.031-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
