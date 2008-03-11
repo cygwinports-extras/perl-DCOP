@@ -1,4 +1,4 @@
 category: Perl KDE
-requires: cygwin kdelibs-bin perl
+requires: kdelibs perl
 sdesc: "Perl extension to speak to the dcop server via system's DCOP client."
 ldesc: "Perl extension to speak to the dcop server via system's DCOP client."
